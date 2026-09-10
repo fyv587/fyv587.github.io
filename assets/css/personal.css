@@ -1,0 +1,68 @@
+/* Color and typography only; layout remains AcadHomepage's original. */
+body { background-color: #f8f7f2; color: #253c32; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+h1, h2, h3, h4, h5, h6, .author__name { font-family: Georgia, "Times New Roman", serif; font-weight: 400; color: #31523e; }
+a { color: #55745c; }
+a:hover { color: #947451; }
+.masthead, .greedy-nav { background-color: #f8f7f2; }
+.masthead, .page__content h1, .page__content h2 { border-color: #dcded4; }
+.greedy-nav a, .author__urls a { color: #31523e; }
+.greedy-nav .visible-links a:before { background: #55745c; }
+
+.sidebar .author__name { font-family: Georgia, "Times New Roman", serif; }
+
+/* Details within the original AcadHomepage navigation/sidebar/content layout. */
+html { background-color: #f8f7f2; }
+body { min-height: 100vh; }
+:target { scroll-margin-top: 75px; }
+.draft-note { margin: .8em 0; padding: .7em .9em; border-left: 2px solid #ccd4c3; background: #f0f1e8; color: #67745f; font-size: .85em; line-height: 1.65; }
+.draft-label { display: inline-block; font-size: .85em; font-weight: 600; color: #526748; margin-right: .6em; }
+.news-list time { display: inline-block; min-width: 5em; color: #627556; font-variant-numeric: tabular-nums; }
+.news-list li { margin-bottom: .55em; }
+.publication-note { font-size: .8em; color: #6a7366; }
+.publication-note span { display: inline; }
+.publication { align-items: center; border-color: #dcded4; padding: 1.5em 0; }
+.publication:first-of-type { padding-top: .6em; }
+.publication .paper-box-image img { display: block; width: 100%; height: auto; box-shadow: none; border: 1px solid #e1e3d8; border-radius: 3px; background: white; }
+.publication h3 { margin: .45em 0 .6em; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-size: 1.03em; line-height: 1.45; font-weight: 600; }
+.publication .authors { font-size: .85em; line-height: 1.65; margin-bottom: .6em; }
+.publication .paper-summary { font-size: .88em; color: #64705e; margin-bottom: .75em; }
+.venue { display: inline-block; border: 1px solid #cad5c1; background: #eaf0e3; color: #405b39; border-radius: 3px; padding: .15em .5em; font-size: .73em; font-weight: 600; }
+.paper-links { display: flex; flex-wrap: wrap; gap: .45em; }
+.paper-links a { font-size: .76em; padding: .1em .6em; border: 1px solid #bdcbb2; border-radius: 3px; text-decoration: none; }
+.paper-links a:hover { background: #e6ecde; }
+.education-entry h3 { margin: 1em 0 .4em; font-size: 1.12em; }
+.education-entry p { margin-bottom: .4em; }
+.page-credit { margin-top: 3em; padding-top: 1em; border-top: 1px solid #dcded4; color: #78806f; font-size: .75em; }
+@media (min-width: 768px) { .publication .paper-box-image { min-width: 0; width: 30%; max-width: 30%; } .publication .paper-box-text { width: 70%; max-width: 70%; padding-left: 1.4em; } }
+@media (max-width: 767px) { .publication .paper-box-image { order: 1; margin-bottom: 1em; } .publication .paper-box-text { order: 2; } .publication .paper-box-image img { max-width: 420px; } .news-list time { display: block; } }
+
+/* Compact news rows with dates and milestone emojis. */
+.news-list { list-style: none; padding-left: 0; }
+.news-list li { display: grid; grid-template-columns: 5.5em minmax(0, 1fr); gap: .6em; padding: .35em 0; margin-bottom: .35em; }
+.news-list time { font-size: .92em; padding-top: .08em; }
+@media (max-width: 480px) { .news-list li { grid-template-columns: 1fr; gap: .15em; } }
+
+/* Keep paper titles clickable without link underlines. */
+.page__content .publication h3 a,
+.page__content .publication h3 a:hover,
+.page__content .publication h3 a:focus { text-decoration: none; }
+
+/* Institution logos beside compact research experience entries. */
+.experience-entry { display: flex; align-items: center; gap: 1.4em; padding: 1.25em 0; border-bottom: 1px solid #dcded4; }
+.experience-entry .experience-logo { width: 90px; height: 90px; flex: 0 0 90px; object-fit: contain; border: 0; box-shadow: none; }
+.experience-details { min-width: 0; }
+.experience-details h3 { margin: 0 0 .25em; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-size: 1em; font-weight: 600; }
+.page__content .experience-details h3 a { text-decoration: none; }
+.experience-details p { margin: .25em 0; font-size: .9em; }
+.experience-details .experience-meta { color: #6a7366; font-variant-numeric: tabular-nums; }
+@media (max-width: 480px) { .experience-entry { align-items: flex-start; gap: 1em; } .experience-entry .experience-logo { width: 60px; height: 60px; flex-basis: 60px; } }
+
+.author__urls a[href^="mailto:"] { overflow-wrap: anywhere; white-space: normal; }
+
+/* Compact contact icons; titles and accessible labels identify each link. */
+@media (min-width: 1024px) {
+  .author__urls.social-icons { display: flex; align-items: center; gap: .65em; }
+  .author__urls.social-icons li { margin: 0; }
+  .author__urls.social-icons a { display: inline-flex; align-items: center; justify-content: center; width: 32px; height: 36px; padding: 0; font-size: 1.25em; text-decoration: none; }
+}
+.author__urls.social-icons a:focus-visible { outline: 2px solid #55745c; outline-offset: 2px; border-radius: 3px; }

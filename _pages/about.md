@@ -1,58 +1,101 @@
 ---
 permalink: /
 title: ""
-excerpt: ""
+excerpt: "Jiajun Liang — Diffusion Models"
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
 
-{% if site.google_scholar_stats_use_cdn %}
-{% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@" %}
-{% else %}
-{% assign gsDataBaseUrl = "https://raw.githubusercontent.com/" | append: site.repository | append: "/" %}
-{% endif %}
-{% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
+<h1 id="about-me">About Me</h1>
+<p class="intro-copy">Hi! I am <strong>Jiajun Liang</strong>, an undergraduate student at the <strong>School of Artificial Intelligence, Sun Yat-sen University</strong>, advised by Prof. <a href="https://xudongmao.github.io/"><strong>Xudong Mao</strong></a>. I am an incoming PhD student at the <strong>Pattern Recognition Lab (PRLab), Nanjing University</strong>, where I will be advised by Prof. <a href="https://chenyangsi.top/"><strong>Chenyang Si</strong></a>.</p>
+<p class="intro-copy">My research centers on <strong>generative modeling for language and vision</strong>, particularly <strong>diffusion language models</strong> and <strong>unified multimodal understanding and generation</strong>. I also develop methods for <strong>image and video generation</strong>, with an emphasis on <strong>efficiency and controllability</strong>.</p>
+<p class="intro-copy"><strong>I welcome research collaborations and discussions. Please feel free to get in touch!</strong></p>
 
-<span class='anchor' id='about-me'></span>
+<h1 id="news">News</h1>
+<ul class="news-list">
+  <li><time datetime="2026-08">2026.08</time><span class="news-text">🚀 We released <a href="https://arxiv.org/abs/2608.02602"><strong>AURORA-LM</strong></a>, a continuous-latent diffusion language model.</span></li>
+  <li><time datetime="2026-02">2026.02</time><span class="news-text">🎉 <a href="https://arxiv.org/abs/2512.01755"><strong>FreqEdit</strong></a> was accepted to <strong>CVPR 2026</strong>!</span></li>
+</ul>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. Suspendisse condimentum, libero vel tempus mattis, risus risus vulputate libero, elementum fermentum mi neque vel nisl. Maecenas facilisis maximus dignissim. Curabitur mattis vulputate dui, tincidunt varius libero luctus eu. Mauris mauris nulla, scelerisque eget massa id, tincidunt congue felis. Sed convallis tempor ipsum rhoncus viverra. Pellentesque nulla orci, accumsan volutpat fringilla vitae, maximus sit amet tortor. Aliquam ultricies odio ut volutpat scelerisque. Donec nisl nisl, porttitor vitae pharetra quis, fringilla sed mi. Fusce pretium dolor ut aliquam consequat. Cras volutpat, tellus accumsan mattis molestie, nisl lacus tempus massa, nec malesuada tortor leo vel quam. Aliquam vel ex consectetur, vehicula leo nec, efficitur eros. Donec convallis non urna quis feugiat.
+<h1 id="publications">Publications</h1>
 
-My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
-
-
-# 🔥 News
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-
-# 📝 Publications 
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
-
-**Kaiming He**, Xiangyu Zhang, Shaoqing Ren, Jian Sun
-
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-</div>
+<div class="paper-box publication">
+  <div class="paper-box-image"><div>
+    <a href="https://aurora-lm-project.github.io/" aria-label="AURORA-LM project page"><img src="images/publications/aurora-framework.png" alt="AURORA-LM framework: text autoencoding, latent diffusion modeling, and blockwise generation" loading="lazy"></a>
+  </div></div>
+  <div class="paper-box-text">
+    <span class="venue">arXiv · 2026</span>
+    <h3><a href="https://arxiv.org/abs/2608.02602">AURORA-LM: Autoencoding Unified Representation for Continuous-Latent Diffusion Language Modeling</a></h3>
+    <p class="authors"><strong>Jiajun Liang*</strong>, Yucheng Liao*, Yukang Cao*, Jiazhe Wei, Ken Li, Wende Tan, Jiankun Zhang, ZY Cui, Jingkang Yang, Liucheng Guo, Shiqi Yang, B. Yang, Caifeng Shan, Ziwei Liu, Chenyang Si†</p>
+    <div class="paper-links"><a href="https://arxiv.org/abs/2608.02602">Paper</a><a href="https://github.com/fyv587/AURORA-LM">Code (coming soon)</a><a href="https://aurora-lm-project.github.io/">Project Page</a></div>
+  </div>
 </div>
 
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
+<div class="paper-box publication">
+  <div class="paper-box-image"><div>
+    <a href="https://vibegame.tettet.org/" aria-label="VibeGame project page"><img src="images/publications/vibegame-teaser.webp" alt="Examples of games created and edited with VibeGame" loading="lazy"></a>
+  </div></div>
+  <div class="paper-box-text">
+    <span class="venue">Technical Report · 2026</span>
+    <h3><a href="https://vibegame.tettet.org/technical_report.pdf">VibeGame: Prompt-to-Game Development with AI-Native Engine and Self-Evolving Adversarial Agent Team</a></h3>
+    <p class="authors">Wenbo Hu*, Ken Li*, Jiazhe Wei*, Yukang Cao, Weiyi Hong, Jiayi Dai, Chenjun Bai, <strong>Jiajun Liang</strong>, Yucheng Liao, Ruichuan An, Zeyu Lou, Haofan Wang, Yueming Lyu, Ziwei Liu, Chenyang Si†</p>
+    <div class="paper-links"><a href="https://vibegame.tettet.org/technical_report.pdf">PDF</a><a href="https://vibegame.tettet.org/">Project Page</a><a href="https://github.com/tettethu/VibeGame">Code</a></div>
+  </div>
+</div>
 
-# 🎖 Honors and Awards
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+<div class="paper-box publication">
+  <div class="paper-box-image"><div>
+    <a href="https://freqedit.github.io/" aria-label="FreqEdit project page"><img src="images/publications/freqedit-teaser.png" alt="FreqEdit comparison showing image quality over successive editing turns" loading="lazy"></a>
+  </div></div>
+  <div class="paper-box-text">
+    <span class="venue">CVPR · 2026</span>
+    <h3><a href="https://openaccess.thecvf.com/content/CVPR2026/html/Liao_FreqEdit_Preserving_High-Frequency_Features_for_Robust_Multi-Turn_Image_Editing_CVPR_2026_paper.html">FreqEdit: Preserving High-Frequency Features for Robust Multi-Turn Image Editing</a></h3>
+    <p class="authors">Yucheng Liao*, <strong>Jiajun Liang*</strong>, Kaiqian Cui*, Baoquan Zhao, Haoran Xie, Wei Liu, Qing Li, Xudong Mao†</p>
+    <div class="paper-links"><a href="https://arxiv.org/abs/2512.01755">Paper</a><a href="https://arxiv.org/pdf/2512.01755">PDF</a><a href="https://freqedit.github.io/">Project Page</a><a href="https://github.com/FreqEdit/FreqEdit">Code</a></div>
+  </div>
+</div>
 
-# 📖 Educations
-- *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+<h1 id="experience">Research Experience</h1>
+<div class="experience-entry">
+  <img class="experience-logo" src="images/organizations/wechat-vision.png" alt="WeChat Vision" loading="lazy">
+  <div class="experience-details">
+    <h3>WeChat Vision @ Tencent</h3>
+    <p class="experience-team">Video Generation Foundation Group</p>
+    <p class="experience-meta">2026.05 – Present · Research Intern</p>
+    <p>Supervised by Dr. <a href="https://binxinyang.github.io/">Binxin Yang</a> and Dr. <a href="https://scholar.google.com/citations?user=WDJL3gYAAAAJ">Chen Li</a>.</p>
+  </div>
+</div>
+<div class="experience-entry">
+  <img class="experience-logo" src="images/organizations/nju.png" alt="Nanjing University" loading="lazy">
+  <div class="experience-details">
+    <h3><a href="https://prlab-nju.com/nju/">PRLab, Nanjing University</a></h3>
+    <p class="experience-meta">2026.01 – Present · Research Intern</p>
+    <p>Supervised by Prof. <a href="https://scholar.google.com/citations?user=XdahAuoAAAAJ">Chenyang Si</a>.</p>
+  </div>
+</div>
+<div class="experience-entry">
+  <img class="experience-logo" src="images/organizations/lovart.png" alt="Lovart" loading="lazy">
+  <div class="experience-details">
+    <h3><a href="https://www.lovart.ai/">Lovart.ai</a></h3>
+    <p class="experience-team">AIGC Research Team</p>
+    <p class="experience-meta">2026.02 – 2026.04 · Research Intern</p>
+    <p>Supervised by <a href="https://haofanwang.github.io/">Haofan Wang</a>.</p>
+  </div>
+</div>
 
-# 💬 Invited Talks
-- *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
+<h1 id="education">Education</h1>
+<div class="experience-entry">
+  <img class="experience-logo" src="images/organizations/sysu.png" alt="Sun Yat-sen University emblem" loading="lazy">
+  <div class="experience-details">
+    <h3><a href="https://www.sysu.edu.cn/">Sun Yat-sen University</a></h3>
+    <p><strong>Undergraduate Student</strong></p>
+    <p>School of Artificial Intelligence</p>
+    <p class="experience-meta">2023–2027 (expected)</p>
+  </div>
+</div>
 
-# 💻 Internships
-- *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
+<h1 id="talks-service">Talks &amp; Service</h1>
+
+<p class="page-credit">© Jiajun Liang · <a href="https://github.com/RayeRen/acad-homepage.github.io">AcadHomepage</a></p>
