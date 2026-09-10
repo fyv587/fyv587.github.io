@@ -15,8 +15,8 @@ redirect_from:
 
 <h1 id="news">News</h1>
 <ul class="news-list">
-  <li><time datetime="2026-08">2026.08</time><span class="news-text">🚀 We released <a href="https://arxiv.org/abs/2608.02602"><strong>AURORA-LM</strong></a>, a continuous-latent diffusion language model.</span></li>
-  <li><time datetime="2026-02">2026.02</time><span class="news-text">🎉 <a href="https://arxiv.org/abs/2512.01755"><strong>FreqEdit</strong></a> was accepted to <strong>CVPR 2026</strong>!</span></li>
+  <li><time datetime="2026-08">2026.08</time><span class="news-text">🚀 We released <a href="https://aurora-lm-project.github.io/"><strong>AURORA-LM</strong></a>, a continuous-latent diffusion language model.</span></li>
+  <li><time datetime="2026-02">2026.02</time><span class="news-text">🎉 <a href="https://freqedit.github.io/"><strong>FreqEdit</strong></a> was accepted to <strong>CVPR 2026</strong>!</span></li>
 </ul>
 
 <h1 id="publications">Publications</h1>
