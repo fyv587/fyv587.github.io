@@ -15,6 +15,7 @@ redirect_from:
 
 <h1 id="news">News</h1>
 <ul class="news-list">
+  <li><time datetime="2026-09">2026.09</time><span class="news-text">🎉 The code for <a href="https://github.com/fyv587/AURORA-LM"><strong>AURORA-LM</strong></a> is now open source!</span></li>
   <li><time datetime="2026-08">2026.08</time><span class="news-text">🚀 We released <a href="https://aurora-lm-project.github.io/"><strong>AURORA-LM</strong></a>, a continuous-latent diffusion language model.</span></li>
   <li><time datetime="2026-02">2026.02</time><span class="news-text">🎉 <a href="https://freqedit.github.io/"><strong>FreqEdit</strong></a> was accepted to <strong>CVPR 2026</strong>!</span></li>
 </ul>
@@ -29,7 +30,7 @@ redirect_from:
     <span class="venue">arXiv · 2026</span>
     <h3><a href="https://arxiv.org/abs/2608.02602">AURORA-LM: Autoencoding Unified Representation for Continuous-Latent Diffusion Language Modeling</a></h3>
     <p class="authors"><strong>Jiajun Liang*</strong>, Yucheng Liao*, Yukang Cao*, Jiazhe Wei, Ken Li, Wende Tan, Jiankun Zhang, ZY Cui, Jingkang Yang, Liucheng Guo, Shiqi Yang, B. Yang, Caifeng Shan, Ziwei Liu, Chenyang Si†</p>
-    <div class="paper-links"><a href="https://arxiv.org/abs/2608.02602">Paper</a><a href="https://github.com/fyv587/AURORA-LM">Code (coming soon)</a><a href="https://aurora-lm-project.github.io/">Project Page</a></div>
+    <div class="paper-links"><a href="https://arxiv.org/abs/2608.02602">Paper</a><a href="https://github.com/fyv587/AURORA-LM">Code</a><a href="https://aurora-lm-project.github.io/">Project Page</a></div>
   </div>
 </div>
 
