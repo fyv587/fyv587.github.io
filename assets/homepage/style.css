@@ -37,5 +37,5 @@ body{font-size:17px}.nav-inner{gap:40px}nav a{font-size:16px;padding:22px 15px}.
 .contribution-note{font-size:12px;color:#7c8576;margin:15px 3px 0;line-height:1.7}.contribution-note span{margin:0 7px}.sidebar-bottom{font-size:11px;letter-spacing:0}.section-heading .heading-line{background:linear-gradient(90deg,#ccd6c4,transparent 90%)}
 .portrait{height:auto;aspect-ratio:1.08}
 
-.personal-note .coffee-taro{display:block;width:100%;height:auto;mix-blend-mode:multiply}
-@media(min-width:761px) and (max-height:760px){.profile .personal-note .coffee-taro{height:60px;width:100%;object-fit:contain}}
+.personal-note .coffee-taro{display:inline-block;width:145px;height:64px;max-width:100%;object-fit:contain;mix-blend-mode:multiply}
+@media(min-width:761px) and (max-height:760px){.profile .personal-note .coffee-taro{height:43px!important;width:145px;object-fit:contain}}
