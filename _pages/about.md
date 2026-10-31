@@ -1,102 +1,101 @@
 ---
+layout: null
 permalink: /
-title: ""
-excerpt: "Jiajun Liang — Diffusion Models"
-author_profile: true
+title: "Jiajun Liang"
 redirect_from:
   - /about/
   - /about.html
 ---
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#31523e"><title>Jiajun Liang — Research & Notes</title><meta name="description" content="Jiajun Liang — diffusion language models, unified multimodal understanding and generation."><link rel="stylesheet" href="/assets/homepage/style.css"></head><body><a class="skip" href="#about-me">Skip to content</a><header class="topbar"><div class="nav-inner"><a class="monogram" href="#about-me" aria-label="Jiajun Liang home"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 27C16 17 17 9 27 5c1 12-3 16-11 16M16 24C5 22 4 16 5 10c8 2 11 7 11 14"/></svg></a><nav aria-label="Main navigation"><a href="#about-me">About Me</a><a href="#news">News</a><a href="#publications">Publications</a><a href="#experience">Experience</a><a href="#education">Education</a></nav></div><div class="reading-progress"></div></header><div class="layout"><aside class="profile"><div class="portrait-wrap"><img class="portrait" fetchpriority="high" decoding="async" width="400" height="370" src="/images/avatar.jpg" alt="A cat looking over a green landscape"></div><div class="name-row"><h1>Jiajun Liang</h1><span class="name-leaf">✳</span></div><p class="research-line">Diffusion Language Models<br>Unified Multimodal Models<br>Visual Generation</p><div class="socials"><a href="mailto:grealish2821@gmail.com"><span aria-hidden="true">✉️</span>Email</a><a href="https://scholar.google.com/citations?user=M-YwlBAAAAAJ" target="_blank" rel="noopener noreferrer"><span aria-hidden="true">🎓</span>Scholar</a><a href="https://github.com/fyv587" target="_blank" rel="noopener noreferrer"><svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .8a11.2 11.2 0 0 0-3.54 21.83c.56.1.77-.24.77-.54v-2.1c-3.13.68-3.79-1.33-3.79-1.33-.51-1.3-1.25-1.65-1.25-1.65-1.02-.7.08-.69.08-.69 1.13.08 1.73 1.16 1.73 1.16 1 1.72 2.63 1.22 3.27.93.1-.73.39-1.22.71-1.5-2.5-.28-5.12-1.25-5.12-5.54 0-1.22.44-2.22 1.15-3-.12-.29-.5-1.43.11-2.97 0 0 .94-.3 3.08 1.15a10.7 10.7 0 0 1 5.6 0c2.14-1.45 3.08-1.15 3.08-1.15.61 1.54.23 2.68.11 2.97.72.78 1.15 1.78 1.15 3 0 4.3-2.63 5.25-5.14 5.53.4.35.76 1.03.76 2.08v3.11c0 .3.2.65.78.54A11.2 11.2 0 0 0 12 .8z"/></svg>GitHub</a></div><div class="personal-note"><svg viewBox="0 0 180 75" aria-hidden="true"><g fill="none" stroke="#65765c" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M23 20h37l-5 42H29z" fill="#d5c5a4"/><path d="M23 20q18-7 37 0M28 32h29M44 24l8-20M39 8l-5-4M16 38l-7-3M68 42l7-4"/><path d="M104 40l31-20 32 22-4 17-59-4z" fill="#c9bccd"/><path d="M104 40l59 3M110 46l48 3M104 55l59 4M135 20l-2 19"/><path d="M119 11l-2-5M158 14l4-6"/></g></svg><p>Fueled by iced Americanos<br>& McDonald’s taro pies.</p></div><div class="sidebar-bottom"><span class="tiny-leaf">❧</span><span>A little curiosity, every day.</span></div></aside><main>
 
-<h1 id="about-me">About Me</h1>
-<p class="intro-copy">Hi! I am <strong>Jiajun Liang</strong>, an undergraduate student at the <strong>School of Artificial Intelligence, Sun Yat-sen University</strong>, advised by Prof. <a href="https://xudongmao.github.io/"><strong>Xudong Mao</strong></a>. I am an incoming PhD student at the <strong>Pattern Recognition Lab (PRLab), Nanjing University</strong>, where I will be advised by Prof. <a href="https://chenyangsi.top/"><strong>Chenyang Si</strong></a>.</p>
-<p class="intro-copy">My research centers on <strong>generative modeling for language and vision</strong>, particularly <strong>diffusion language models</strong> and <strong>unified multimodal understanding and generation</strong>. I also develop methods for <strong>image and video generation</strong>, with an emphasis on <strong>efficiency and controllability</strong>.</p>
+<section id="about-me"><header class="section-heading"><span class="section-number" aria-hidden="true">👋</span><h2>About Me</h2><span class="heading-line"></span></header>
+<p class="intro-copy">Hi! I am Jiajun Liang, an <strong>undergraduate student</strong> at the <a href="https://www.sysu.edu.cn/" target="_blank" rel="noopener noreferrer">School of Artificial Intelligence, Sun Yat-sen University</a>, advised by Prof. <a href="https://xudongmao.github.io/" target="_blank" rel="noopener noreferrer">Xudong Mao</a>. I am an <strong>incoming PhD student</strong> at the <a href="https://prlab-nju.com/nju/" target="_blank" rel="noopener noreferrer">Pattern Recognition Lab (PRLab), Nanjing University</a>, where I will be advised by Prof. <a href="https://chenyangsi.top/" target="_blank" rel="noopener noreferrer">Chenyang Si</a>.</p>
+<p class="intro-copy">My research centers on generative modeling for language and vision, particularly <strong>diffusion language models</strong> and <strong>unified multimodal understanding and generation</strong>. I also develop methods for image and video generation, with an emphasis on efficiency and controllability.</p>
 <p class="intro-copy"><strong>I welcome research collaborations and discussions. Please feel free to get in touch!</strong></p>
 
-<h1 id="news">News</h1>
+</section><section id="news"><header class="section-heading"><span class="section-number" aria-hidden="true">🌱</span><h2>News</h2><span class="heading-line"></span></header>
 <ul class="news-list">
-  <li><time datetime="2026-09">2026.09</time><span class="news-text">🎉 The code for <a href="https://github.com/fyv587/AURORA-LM"><strong>AURORA-LM</strong></a> is now open source!</span></li>
-  <li><time datetime="2026-08">2026.08</time><span class="news-text">🚀 We released <a href="https://aurora-lm-project.github.io/"><strong>AURORA-LM</strong></a>, a continuous-latent diffusion language model.</span></li>
-  <li><time datetime="2026-02">2026.02</time><span class="news-text">🎉 <a href="https://freqedit.github.io/"><strong>FreqEdit</strong></a> was accepted to <strong>CVPR 2026</strong>!</span></li>
+  <li><time datetime="2026-09">2026.09</time><span class="news-text"><span class="news-emoji" aria-hidden="true">🎉</span>The code for <a href="https://github.com/fyv587/AURORA-LM" target="_blank" rel="noopener noreferrer"><strong>AURORA-LM</strong></a> is now open source!</span></li>
+  <li><time datetime="2026-08">2026.08</time><span class="news-text"><span class="news-emoji" aria-hidden="true">🚀</span>We released <a href="https://aurora-lm-project.github.io/" target="_blank" rel="noopener noreferrer"><strong>AURORA-LM</strong></a>, a continuous-latent diffusion language model.</span></li>
+  <li><time datetime="2026-02">2026.02</time><span class="news-text"><span class="news-emoji" aria-hidden="true">🎉</span><a href="https://freqedit.github.io/" target="_blank" rel="noopener noreferrer"><strong>FreqEdit</strong></a> was accepted to <strong>CVPR 2026</strong>!</span></li>
 </ul>
 
-<h1 id="publications">Publications</h1>
+</section><section id="publications"><header class="section-heading"><span class="section-number" aria-hidden="true">📚</span><h2>Publications</h2><span class="heading-line"></span></header>
 
 <div class="paper-box publication">
   <div class="paper-box-image"><div>
-    <a href="https://aurora-lm-project.github.io/" aria-label="AURORA-LM project page"><img src="images/publications/aurora-framework.png" alt="AURORA-LM framework: text autoencoding, latent diffusion modeling, and blockwise generation" loading="lazy"></a>
+    <button class="image-preview" aria-label="Enlarge image: AURORA-LM project page"><img src="/images/thumbnails/aurora-framework.webp" data-full-src="/images/publications/aurora-framework.png" width="900" height="506" decoding="async" alt="AURORA-LM framework: text autoencoding, latent diffusion modeling, and blockwise generation" loading="lazy"><span class="zoom-hint">↗ View image</span></button>
   </div></div>
   <div class="paper-box-text">
     <span class="venue">arXiv · 2026</span>
-    <h3><a href="https://arxiv.org/abs/2608.02602">AURORA-LM: Autoencoding Unified Representation for Continuous-Latent Diffusion Language Modeling</a></h3>
-    <p class="authors"><strong>Jiajun Liang*</strong>, Yucheng Liao*, Yukang Cao*, Jiazhe Wei, Ken Li, Wende Tan, Jiankun Zhang, ZY Cui, Jingkang Yang, Liucheng Guo, Shiqi Yang, B. Yang, Caifeng Shan, Ziwei Liu, Chenyang Si†</p>
-    <div class="paper-links"><a href="https://arxiv.org/abs/2608.02602">Paper</a><a href="https://github.com/fyv587/AURORA-LM">Code</a><a href="https://aurora-lm-project.github.io/">Project Page</a></div>
+    <h3><a href="https://arxiv.org/abs/2608.02602" target="_blank" rel="noopener noreferrer">AURORA-LM: Autoencoding Unified Representation for Continuous-Latent Diffusion Language Modeling</a></h3>
+    <p class="authors"><strong>Jiajun Liang*</strong>, Yucheng Liao*, <a class="author-link" href="https://yukangcao.github.io/" target="_blank" rel="noopener noreferrer">Yukang Cao</a>*, <a class="author-link" href="https://jiazhewei.github.io/" target="_blank" rel="noopener noreferrer">Jiazhe Wei</a>, <a class="author-link" href="https://kiyotakali.github.io/" target="_blank" rel="noopener noreferrer">Ken Li</a>, Wende Tan, Jiankun Zhang, ZY Cui, <a class="author-link" href="https://jingkangyang.com/" target="_blank" rel="noopener noreferrer">Jingkang Yang</a>, Liucheng Guo, Shiqi Yang, B. Yang, <a class="author-link" href="https://caifeng-shan.github.io/" target="_blank" rel="noopener noreferrer">Caifeng Shan</a>, <a class="author-link" href="https://liuziwei7.github.io/" target="_blank" rel="noopener noreferrer">Ziwei Liu</a>, <a class="author-link" href="https://chenyangsi.top/" target="_blank" rel="noopener noreferrer">Chenyang Si</a>†</p>
+    <div class="paper-links"><a href="https://arxiv.org/abs/2608.02602" target="_blank" rel="noopener noreferrer">Paper</a><a href="https://aurora-lm-project.github.io/" target="_blank" rel="noopener noreferrer">Project Page</a><a class="code-stars" data-repo="fyv587/AURORA-LM" href="https://github.com/fyv587/AURORA-LM" target="_blank" rel="noopener noreferrer"><span>Code</span><span class="star-badge" title="Fetching GitHub stars"><span aria-hidden="true">★</span> <span class="star-count" aria-label="Star count loading">…</span></span></a></div>
   </div>
 </div>
 
 <div class="paper-box publication">
   <div class="paper-box-image"><div>
-    <a href="https://vibegame.tettet.org/" aria-label="VibeGame project page"><img src="images/publications/vibegame-teaser.webp" alt="Examples of games created and edited with VibeGame" loading="lazy"></a>
+    <button class="image-preview" aria-label="Enlarge image: VibeGame project page"><img src="/images/thumbnails/vibegame-teaser.webp" data-full-src="/images/publications/vibegame-teaser.webp" width="861" height="600" decoding="async" alt="Examples of games created and edited with VibeGame" loading="lazy"><span class="zoom-hint">↗ View image</span></button>
   </div></div>
   <div class="paper-box-text">
-    <span class="venue">Technical Report · 2026</span>
-    <h3><a href="https://vibegame.tettet.org/technical_report.pdf">VibeGame: Prompt-to-Game Development with AI-Native Engine and Self-Evolving Adversarial Agent Team</a></h3>
-    <p class="authors">Wenbo Hu*, Ken Li*, Jiazhe Wei*, Yukang Cao, Weiyi Hong, Jiayi Dai, Chenjun Bai, <strong>Jiajun Liang</strong>, Yucheng Liao, Ruichuan An, Zeyu Lou, Haofan Wang, Yueming Lyu, Ziwei Liu, Chenyang Si†</p>
-    <div class="paper-links"><a href="https://vibegame.tettet.org/technical_report.pdf">PDF</a><a href="https://vibegame.tettet.org/">Project Page</a><a href="https://github.com/tettethu/VibeGame">Code</a></div>
+    <span class="venue">arXiv · 2026</span>
+    <h3><a href="https://arxiv.org/abs/2610.33106" target="_blank" rel="noopener noreferrer">VibeGame: Prompt-to-Game Development with AI-Native Engine and Self-Evolving Adversarial Agent Team</a></h3>
+    <p class="authors"><a class="author-link" href="https://tettet.org/" target="_blank" rel="noopener noreferrer">Wenbo Hu</a>*, <a class="author-link" href="https://kiyotakali.github.io/" target="_blank" rel="noopener noreferrer">Ken Li</a>*, <a class="author-link" href="https://jiazhewei.github.io/" target="_blank" rel="noopener noreferrer">Jiazhe Wei</a>*, <a class="author-link" href="https://yukangcao.github.io/" target="_blank" rel="noopener noreferrer">Yukang Cao</a>, Weiyi Hong, Jiayi Dai, Chenjun Bai, <strong>Jiajun Liang</strong>, Yucheng Liao, <a class="author-link" href="https://arctanxarc.github.io/" target="_blank" rel="noopener noreferrer">Ruichuan An</a>, Zeyu Lou, <a class="author-link" href="https://haofanwang.github.io/" target="_blank" rel="noopener noreferrer">Haofan Wang</a>, <a class="author-link" href="https://yueming6568.github.io/" target="_blank" rel="noopener noreferrer">Yueming Lyu</a>, <a class="author-link" href="https://jingkangyang.com/" target="_blank" rel="noopener noreferrer">Jingkang Yang</a>, <a class="author-link" href="https://liuziwei7.github.io/" target="_blank" rel="noopener noreferrer">Ziwei Liu</a>, <a class="author-link" href="https://chenyangsi.top/" target="_blank" rel="noopener noreferrer">Chenyang Si</a>†</p>
+    <div class="paper-links"><a href="https://arxiv.org/abs/2610.33106" target="_blank" rel="noopener noreferrer">Paper</a><a href="https://arxiv.org/pdf/2610.33106" target="_blank" rel="noopener noreferrer">PDF</a><a href="https://vibegame.tettet.org/" target="_blank" rel="noopener noreferrer">Project Page</a><a class="code-stars" data-repo="tettethu/VibeGame" href="https://github.com/tettethu/VibeGame" target="_blank" rel="noopener noreferrer"><span>Code</span><span class="star-badge" title="Fetching GitHub stars"><span aria-hidden="true">★</span> <span class="star-count" aria-label="Star count loading">…</span></span></a></div>
   </div>
 </div>
 
 <div class="paper-box publication">
   <div class="paper-box-image"><div>
-    <a href="https://freqedit.github.io/" aria-label="FreqEdit project page"><img src="images/publications/freqedit-teaser.png" alt="FreqEdit comparison showing image quality over successive editing turns" loading="lazy"></a>
+    <button class="image-preview" aria-label="Enlarge image: FreqEdit project page"><img src="/images/thumbnails/freqedit-teaser.webp" data-full-src="/images/publications/freqedit-teaser.png" width="900" height="387" decoding="async" alt="FreqEdit comparison showing image quality over successive editing turns" loading="lazy"><span class="zoom-hint">↗ View image</span></button>
   </div></div>
   <div class="paper-box-text">
     <span class="venue">CVPR · 2026</span>
-    <h3><a href="https://openaccess.thecvf.com/content/CVPR2026/html/Liao_FreqEdit_Preserving_High-Frequency_Features_for_Robust_Multi-Turn_Image_Editing_CVPR_2026_paper.html">FreqEdit: Preserving High-Frequency Features for Robust Multi-Turn Image Editing</a></h3>
-    <p class="authors">Yucheng Liao*, <strong>Jiajun Liang*</strong>, Kaiqian Cui*, Baoquan Zhao, Haoran Xie, Wei Liu, Qing Li, Xudong Mao†</p>
-    <div class="paper-links"><a href="https://arxiv.org/abs/2512.01755">Paper</a><a href="https://arxiv.org/pdf/2512.01755">PDF</a><a href="https://freqedit.github.io/">Project Page</a><a href="https://github.com/FreqEdit/FreqEdit">Code</a></div>
+    <h3><a href="https://openaccess.thecvf.com/content/CVPR2026/html/Liao_FreqEdit_Preserving_High-Frequency_Features_for_Robust_Multi-Turn_Image_Editing_CVPR_2026_paper.html" target="_blank" rel="noopener noreferrer">FreqEdit: Preserving High-Frequency Features for Robust Multi-Turn Image Editing</a></h3>
+    <p class="authors">Yucheng Liao*, <strong>Jiajun Liang*</strong>, <a class="author-link" href="https://github.com/kaiqiancui" target="_blank" rel="noopener noreferrer">Kaiqian Cui</a>*, <a class="author-link" href="https://baoquanzhao.github.io/" target="_blank" rel="noopener noreferrer">Baoquan Zhao</a>, <a class="author-link" href="https://xiehaoran.net/index.php" target="_blank" rel="noopener noreferrer">Haoran Xie</a>, <a class="author-link" href="https://sites.google.com/view/cuweiliu" target="_blank" rel="noopener noreferrer">Wei Liu</a>, <a class="author-link" href="https://www.polyu.edu.hk/comp/people/academic-staff/prof-li-qing/" target="_blank" rel="noopener noreferrer">Qing Li</a>, <a class="author-link" href="https://xudongmao.github.io/" target="_blank" rel="noopener noreferrer">Xudong Mao</a>†</p>
+    <div class="paper-links"><a href="https://arxiv.org/abs/2512.01755" target="_blank" rel="noopener noreferrer">Paper</a><a href="https://arxiv.org/pdf/2512.01755" target="_blank" rel="noopener noreferrer">PDF</a><a href="https://freqedit.github.io/" target="_blank" rel="noopener noreferrer">Project Page</a><a class="code-stars" data-repo="FreqEdit/FreqEdit" href="https://github.com/FreqEdit/FreqEdit" target="_blank" rel="noopener noreferrer"><span>Code</span><span class="star-badge" title="Fetching GitHub stars"><span aria-hidden="true">★</span> <span class="star-count" aria-label="Star count loading">…</span></span></a></div>
   </div>
 </div>
 
-<h1 id="experience">Research Experience</h1>
+<p class="contribution-note">* Equal contribution <span aria-hidden="true">·</span> † Corresponding author</p>
+</section><section id="experience"><header class="section-heading"><span class="section-number" aria-hidden="true">💼</span><h2>Research Experience</h2><span class="heading-line"></span></header>
 <div class="experience-entry">
-  <img class="experience-logo" src="images/organizations/wechat-vision.png" alt="WeChat Vision" loading="lazy">
+  <img class="experience-logo" src="/images/organizations/wechat-vision.png" alt="WeChat Vision" loading="lazy">
   <div class="experience-details">
     <h3>WeChat Vision @ Tencent</h3>
     <p class="experience-team">Video Generation Foundation Group</p>
     <p class="experience-meta">2026.05 – Present · Research Intern</p>
-    <p>Supervised by Dr. <a href="https://binxinyang.github.io/">Binxin Yang</a> and Dr. <a href="https://scholar.google.com/citations?user=WDJL3gYAAAAJ">Chen Li</a>.</p>
+    <p>Supervised by Dr. <a href="https://binxinyang.github.io/" target="_blank" rel="noopener noreferrer">Binxin Yang</a> and Dr. <a href="https://scholar.google.com/citations?user=WDJL3gYAAAAJ" target="_blank" rel="noopener noreferrer">Chen Li</a>.</p>
   </div>
 </div>
 <div class="experience-entry">
-  <img class="experience-logo" src="images/organizations/nju.png" alt="Nanjing University" loading="lazy">
+  <img class="experience-logo" src="/images/organizations/nju.png" alt="Nanjing University" loading="lazy">
   <div class="experience-details">
-    <h3><a href="https://prlab-nju.com/nju/">PRLab, Nanjing University</a></h3>
+    <h3><a href="https://prlab-nju.com/nju/" target="_blank" rel="noopener noreferrer">PRLab, Nanjing University</a></h3>
     <p class="experience-meta">2026.01 – Present · Research Intern</p>
-    <p>Supervised by Prof. <a href="https://scholar.google.com/citations?user=XdahAuoAAAAJ">Chenyang Si</a>.</p>
+    <p>Supervised by Prof. <a href="https://scholar.google.com/citations?user=XdahAuoAAAAJ" target="_blank" rel="noopener noreferrer">Chenyang Si</a>.</p>
   </div>
 </div>
 <div class="experience-entry">
-  <img class="experience-logo" src="images/organizations/lovart.png" alt="Lovart" loading="lazy">
+  <img class="experience-logo" src="/images/organizations/lovart.png" alt="Lovart" loading="lazy">
   <div class="experience-details">
-    <h3><a href="https://www.lovart.ai/">Lovart.ai</a></h3>
+    <h3><a href="https://www.lovart.ai/" target="_blank" rel="noopener noreferrer">Lovart.ai</a></h3>
     <p class="experience-team">AIGC Research Team</p>
     <p class="experience-meta">2026.02 – 2026.04 · Research Intern</p>
-    <p>Supervised by <a href="https://haofanwang.github.io/">Haofan Wang</a>.</p>
+    <p>Supervised by <a href="https://haofanwang.github.io/" target="_blank" rel="noopener noreferrer">Haofan Wang</a>.</p>
   </div>
 </div>
 
-<h1 id="education">Education</h1>
+</section><section id="education"><header class="section-heading"><span class="section-number" aria-hidden="true">🎓</span><h2>Education</h2><span class="heading-line"></span></header>
 <div class="experience-entry">
-  <img class="experience-logo" src="images/organizations/sysu.png" alt="Sun Yat-sen University emblem" loading="lazy">
+  <img class="experience-logo" src="/images/organizations/sysu.png" alt="Sun Yat-sen University emblem" loading="lazy">
   <div class="experience-details">
-    <h3><a href="https://www.sysu.edu.cn/">Sun Yat-sen University</a></h3>
+    <h3><a href="https://www.sysu.edu.cn/" target="_blank" rel="noopener noreferrer">Sun Yat-sen University</a></h3>
     <p><strong>Undergraduate Student</strong></p>
     <p>School of Artificial Intelligence</p>
     <p class="experience-meta">2023–2027 (expected)</p>
   </div>
 </div>
 
-<h1 id="talks-service">Talks &amp; Service</h1>
-
-<p class="page-credit">© Jiajun Liang · <a href="https://github.com/RayeRen/acad-homepage.github.io">AcadHomepage</a></p>
+</section><footer><span>© Jiajun Liang</span><a href="#about-me">Back to top ↑</a></footer></main></div><dialog class="lightbox"><button class="close-lightbox" aria-label="Close image preview">×</button><img alt=""><p></p></dialog><div class="toast" role="status" aria-live="polite"></div><script src="/assets/homepage/script.js"></script></body></html>
