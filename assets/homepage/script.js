@@ -21,5 +21,33 @@ document.addEventListener('click',e=>{if(!e.target.closest('button,a')||matchMed
  const refreshAll=()=>{if(document.visibilityState==='visible')document.querySelectorAll('.code-stars').forEach(refresh)};refreshAll();setInterval(refreshAll,ttl);document.addEventListener('visibilitychange',refreshAll);
 })();
 
-// Play the original frames only during hover/focus; no background loop.
-(()=>{const b=document.querySelector('.lulu-sticker'),im=document.querySelector('.lulu-sprite');if(!b||!im)return;const durations=[100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100],reduced=matchMedia('(prefers-reduced-motion: reduce)');let timer=0,frame=0,active=false;function paint(){im.style.left=-(frame%7)*100+'%';im.style.top=-Math.floor(frame/7)*100+'%'}function tick(){if(!active)return;frame=(frame+1)%durations.length;paint();timer=setTimeout(tick,durations[frame])}function stop(){active=false;clearTimeout(timer);frame=0;paint();b.dataset.playing='false'}function start(){if(active||reduced.matches)return;active=true;b.dataset.playing='true';timer=setTimeout(tick,durations[frame])}b.addEventListener('pointerenter',e=>{if(e.pointerType!=='touch')start()});b.addEventListener('pointerleave',stop);b.addEventListener('focus',start);b.addEventListener('blur',stop);b.addEventListener('click',()=>{if(matchMedia('(hover: none)').matches){if(active)stop();else start()}else start()});document.addEventListener('visibilitychange',()=>{if(document.hidden)stop()});window.addEventListener('blur',stop);reduced.addEventListener('change',stop);stop()})();
+// Animate only after deliberate pointer movement, keyboard navigation, or touch.
+(() => {
+ const b=document.querySelector('.lulu-sticker'), im=document.querySelector('.lulu-sprite');
+ if(!b||!im)return;
+ const reduced=matchMedia('(prefers-reduced-motion: reduce)');
+ let timer=0, frame=0, active=false, keyboard=false, lastPointer=null;
+ function paint(){im.style.left=-(frame%7)*100+'%';im.style.top=-Math.floor(frame/7)*100+'%'}
+ function tick(){if(!active)return;frame=(frame+1)%35;paint();timer=setTimeout(tick,100)}
+ function stop(){active=false;clearTimeout(timer);frame=0;paint();b.dataset.playing='false'}
+ function reset(){stop();keyboard=false;lastPointer=null}
+ function start(){if(active||reduced.matches||document.hidden)return;active=true;b.dataset.playing='true';timer=setTimeout(tick,100)}
+ document.addEventListener('pointermove',e=>{
+  if(e.pointerType==='touch')return;
+  const moved=lastPointer!==null&&(e.clientX!==lastPointer.x||e.clientY!==lastPointer.y);
+  lastPointer={x:e.clientX,y:e.clientY};
+  if(moved&&b.contains(e.target))start();
+ },{passive:true});
+ document.addEventListener('keydown',e=>{keyboard=e.key==='Tab'});
+ document.addEventListener('pointerdown',()=>{keyboard=false},true);
+ b.addEventListener('pointerleave',stop);
+ b.addEventListener('focus',()=>{if(keyboard)start()});
+ b.addEventListener('blur',stop);
+ b.addEventListener('click',()=>{if(matchMedia('(hover: none)').matches){if(active)stop();else start()}});
+ document.addEventListener('visibilitychange',reset);
+ window.addEventListener('blur',reset);
+ window.addEventListener('pageshow',reset);
+ window.addEventListener('pagehide',reset);
+ reduced.addEventListener('change',reset);
+ reset();
+})();
